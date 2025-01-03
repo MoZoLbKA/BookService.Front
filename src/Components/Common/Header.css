@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: #fff;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header-actions button {
+    background-color: #6a11cb;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-actions button:hover {
+    background-color: #4a90e2;
+  }
